@@ -1,5 +1,9 @@
 ---
-title:    page title  
+title: "Blue Sky and Oceans"
+description: "国際関係や技術的な考察を個人的観点で経験を交えて綴るブログ"
+url: "https://bsojapan.github.io"
+author: whyman
+  name: "bsojapan"
 permalink: /blog0/:year/:month/:day/:title
 ---
 bsojapan initial page
