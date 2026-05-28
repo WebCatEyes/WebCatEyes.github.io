@@ -2,9 +2,18 @@
 title: "Blue Sky and Oceans"
 description: "国際関係や技術的な考察を個人的観点で経験を交えて綴るブログ"
 url: "https://bsojapan.github.io"
-author: whyman
+author: 
   name: "bsojapan"
-permalink: /blog0/:year/:month/:day/:title
+permalink: /
 ---
-bsojapan initial page
-{blog list}(https://bsojapan,github.io/blog0/index.html)
+
+# bsojapan initial page
+
+## 記事一覧
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
