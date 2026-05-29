@@ -4,7 +4,7 @@ description: "国際関係や技術的な考察を個人的観点で経験を交
 url: "https://bsojapan.github.io"
 author: 
   name: "bsojapan"
-permalink: /blog0
+permalink: /blog0/:year/:month/:day/:title.html
 ---
 
 # bsojapan initial page
