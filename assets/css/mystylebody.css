@@ -18,10 +18,10 @@ body {
 
 /* リンクの通常時の色 */
 a {
-  color: #ccccff; /* 青色 */
+  color: #eeeeff; /* 青色 */
   /*text-decoration: underline; */ /* 下線を引く */
 }
 .hover {
-  color: #ffaaaa; /* オレンジや赤色など */
+  color: #ffdddd; /* オレンジや赤色など */
   text-decoration: none; /* 下線を消す（任意） */
 }
