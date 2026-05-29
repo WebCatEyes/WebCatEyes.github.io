@@ -13,3 +13,13 @@ body {
 .site-title {
   color: #ffffff !important; /* 見やすい青などに */
 }
+
+/* リンクの通常時の色 */
+a {
+  color: #ccccff; /* 青色 */
+  text-decoration: underline; /* 下線を引く */
+}
+a:hover {
+  color: #ffaaaa; /* オレンジや赤色など */
+  text-decoration: none; /* 下線を消す（任意） */
+}k
