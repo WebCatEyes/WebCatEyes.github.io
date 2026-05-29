@@ -1,11 +1,15 @@
 ---
 ---
 
+/* 1. まず、大元のテーマのデザインをマニュアル通りに吸い込みます */
+@import "{{ site.theme }}";
+
+/* 2. その上で、大潮流に負けない設定をここに追記します */
 body {
   background-color: #121212 !important;
   color: #e0e0e0 !important;
 }
 
 .site-title {
-  color: red !important;
+  color: #0088ff !important; /* 赤テストが終わったら、見やすい青などに */
 }
