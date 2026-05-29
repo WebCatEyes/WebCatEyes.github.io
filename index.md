@@ -1,13 +1,6 @@
 ---
-layout: default
+layout: defaulttitle: "site top index.html for Blue Sky and Oceans"
 ---
+{{ page.title }}
 
-## 記事一覧
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
+[blogtop](https://bsojapan.github.io/blog0)
