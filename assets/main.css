@@ -1,6 +1,11 @@
+---
+# Jekyll processing marker
+---
+
 /*
-  This is a plain CSS file. 
-  Jekyll will not compile this, avoiding any build errors!
+  This is a Jeykll-driven CSS file.
+  The empty Front Matter above forces Jekyll to compile and apply this file,
+  overriding the built-in theme styles completely.
 */
 
 body {
