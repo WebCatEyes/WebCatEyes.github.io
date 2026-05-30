@@ -5,6 +5,6 @@ mystydir: "/assets/css/"
 /* 1. まず、大元のテーマのデザインをマニュアル通りに吸い込みます */
 @import "{{ site.theme }}";
 
-/* @import "{{ mystydir }}mystylebody.css"; */
+/*  */
 @import "MystyleBody";
-@import "MystyleTitles";
+/* @import "MystyleTitles"; */
