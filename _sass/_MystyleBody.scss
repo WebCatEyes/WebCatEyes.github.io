@@ -12,7 +12,18 @@ a {
   color: #ffdddd !important;
   background-color: #801010 !important;
 }
+/*. トップレベル構造    */
 
+main {}/*（主要コンテンツ）*/
+section{}/*（セクション）*/
+article{}/*（記事）*/
+aside{}/*（サイドバー・補足）*/
+header{}
+footer{}/*（ヘッダー / フッター）*/
+nav{}
+div{}/*（汎用的なグループ化）*/
+/* 文構造 */
 p {
   matgine: 10px 15% 5px 20%;
 }
+blockquote{}
