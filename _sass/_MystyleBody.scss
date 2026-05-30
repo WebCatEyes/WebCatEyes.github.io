@@ -8,6 +8,6 @@ body {
 }
 
 /* 3. 実験成功の証：タイトル文字の特別指定（テスト時の赤から、お好みの色へ） */
-.site-title {
+h1.site-title {
   color: red !important; 
 }
