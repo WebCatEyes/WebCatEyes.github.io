@@ -11,7 +11,8 @@
 
 <body>
 {% include header.html %} <!-- _includes/header.html を読み込む -->
-
+@import{header.html}
+  
   <main>
 {{ content }}
   </main>
