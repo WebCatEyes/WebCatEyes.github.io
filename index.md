@@ -11,6 +11,6 @@ title: "site top index.html for Blue Sky and Oceans"
 <h1 class="script-title">Blue sky and oceans ***</h1>
 
 
-{{ page.title }}
+{{ site.title }}
 
 [blogtop](https://bsojapan.github.io/blog0)
